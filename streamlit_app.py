@@ -27,8 +27,8 @@ if uploaded_file:
         else:
             interpretacion = "La empresa tiene una madurez digital avanzada. Puede enfocarse en innovación y personalización."
 
-        st.markdown(f"### 🧠 Interpretación:
-> {interpretacion}")
+        
+st.markdown(f"### 🧠 Interpretación:\n> {interpretacion}")
 
         # Gráfico radar
         st.subheader("📈 Visualización de madurez por dimensión")
